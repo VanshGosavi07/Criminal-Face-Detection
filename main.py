@@ -7,10 +7,10 @@ from tkinter import filedialog, simpledialog
 from PIL import Image, ImageTk
 import shutil
 
-# Initialize pygame mixer for sound alerts
+# Initialize pygame mixer for sound alerts.
 pygame.mixer.init()
 
-# Directory to store criminal images
+# Directory to store criminal images.
 criminals_dir = "criminals"
 if not os.path.exists(criminals_dir):
     os.makedirs(criminals_dir)
